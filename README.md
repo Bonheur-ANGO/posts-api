@@ -11,5 +11,13 @@
 ```
 - PUT : /post/:id -> edit one post with request body
 - DELETE : /post/:id -> delete one post
-- PATCH : /post/like-post/:id -> Like post
+- PATCH : /post/like-post/:id -> Like post with user id:
+```
+{
+    "userId": "John"
+}
+```
 - PATCH : /post/dislike-post/:id -> disLike post
+
+
+:id = id of post
